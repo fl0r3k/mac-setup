@@ -5,7 +5,7 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew install --cask ghostty gcloud-cli
-brew install rg neovim stow node go
+brew install rg neovim stow node go fzf
 
 cd dotfiles
 stow --restow --verbose -d "$(pwd)" -t "$HOME" .
