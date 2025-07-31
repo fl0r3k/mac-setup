@@ -15,6 +15,7 @@ brew install \
   node \
   oh-my-posh \
   rg \
-  stow
+  stow \
+  zoxide
 
 ./dotfiles.sh

@@ -1,4 +1,7 @@
 #!/bin/sh
 
 cd dotfiles
-stow --restow --verbose -d "$(pwd)" -t "$HOME" .
+stow --restow --verbose \
+  --dir="$(pwd)" \
+  --target="$HOME" \
+  .
