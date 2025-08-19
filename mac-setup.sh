@@ -6,11 +6,16 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew install --cask \
   gcloud-cli \
-  ghostty
+  ghostty \
+  obsidian \
+  google-drive \
+  font-ia-writer-mono \
+  font-ia-writer-duo
 
 brew install \
   fzf \
   go \
+  lazygit \
   neovim \
   node \
   oh-my-posh \
